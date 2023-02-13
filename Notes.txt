@@ -1,0 +1,8 @@
+PA2
+1) My Bio is now completed with at styles that I at least like now but may change later.
+2) The two elements I added additionally are Font Awesome Icons and a title animation
+	> They aren't listed on my ICA document but I added them here for this assignment
+
+PA3
+1) This time I completed the original base for my navigation bar, I might come back and make some more changes
+to its color scheme and col. For right now it functions and works well while being responsive.

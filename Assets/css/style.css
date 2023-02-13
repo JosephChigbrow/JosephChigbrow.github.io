@@ -1,0 +1,111 @@
+.theBody {
+    /* This was originally a hexcode from my ICA2 color pallete but I messed with the color changer box thing to get this new code thingy */
+    background-color: rgb(253, 236, 198);
+}
+
+.contactMe {
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+    border-style: dashed;  
+    border-color: black;
+}
+
+.mediaLink {
+    background-color: lightsteelblue;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-style: solid;
+    border-color: black;
+    border-radius: 25px;
+}
+
+.myPicture {
+    height: 50vh;
+    width: 100%;
+}
+
+.navigationBar {
+    /* This coloring gets changed later to be similar to my mobile narrative */
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+.biography {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 175%;
+    background-color: #e9e4ef;
+}
+
+.artifactText {
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 175%;
+    background-color: lightsteelblue;
+}
+
+.nameTitle{
+    background-color: #e4efe9;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    animation-name: titlePulse;
+    animation-duration: 4s;
+}
+
+@keyframes titlePulse {
+    0% {background-color: white;}
+    50% {background-color: pink;}
+    100% {background-color: #e4efe9;}
+}
+
+/* Responsive Changes */
+
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+ 
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+   
+img {
+    max-width: 100%;
+    height: auto;
+}
