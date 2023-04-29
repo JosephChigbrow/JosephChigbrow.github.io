@@ -4,7 +4,7 @@
 }
 
 .contactMe {
-    background-color: aliceblue;
+    background-color: lightsteelblue;
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -17,7 +17,7 @@
 }
 
 .mediaLink {
-    background-color: lightsteelblue;
+    background-color: whitesmoke;
     color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -29,7 +29,7 @@
 
 .myPicture {
     height: 50vh;
-    width: 100%;
+    width: 50%;
 }
 
 .navigationBar {
@@ -50,7 +50,7 @@
 
 .artifactText {
     color: black;
-    text-align: left;
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 175%;
     background-color: lightsteelblue;
@@ -119,4 +119,9 @@
 img {
     max-width: 100%;
     height: auto;
+}
+
+.artifactVideo {
+    height: 50vh;
+    width: 100%;
 }
